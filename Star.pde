@@ -12,8 +12,7 @@ class Star {
         // size between 0 and 50
         loc = new PVector( random(WIDTH), random(HEIGHT), random(DEPTH));
         this.size = random(MIN_STAR_SIZE, MAX_STAR_SIZE);
-        this.name = starSystems.get(0);
-        starSystems.remove(name);
+        this.name = name;
     }
     
     public String getName() {
